@@ -1,0 +1,4 @@
+INFO: loading config from /home/hdz/shadowsocks/shadowsocks-libev-master/config.json
+2015-06-25 16:00:36 INFO     loading libcrypto from libcrypto.so.1.0.0
+2015-06-25 16:00:36 INFO     starting local at 127.0.0.1:1080
+2015-06-25 16:00:36 ERROR    [Errno 98] Address already in use

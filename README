@@ -1,0 +1,37 @@
+基于CRF的句法分析，可以返回中心词信息，需要直接调用接口得到树，具体树的操作见CCG_tree.py
+
+依赖:64位python2.7
+pygraphviz  用于画图,需要单独安装
+安装见：
+http://www.blogjava.net/huaoguo/archive/2012/12/21/393307.html
+如果句法树图像乱码是字体未安装，见：
+http://cndenis.iteye.com/blog/1749947
+http://jingyan.baidu.com/article/48206aeae78824216ad6b3d5.html
+
+操作命令：
+见直接输入python CTB_main.py可以看到输入帮助
+可以操作未分词、已分词、已pos、已parsered的句子、文件
+命令如：
+python CTB_main.py -file pos_sen 3 pos_sen_out
+对已pos的文件（每一行一句）进行句法分析，输出文件为pos_sen_out
+
+文件目录：
+CCG_tree.py         具体的树结点定义以及相关函数操作，如读树，输出树
+CCG_head.py         中心词，将一棵树变成有中心词的树
+configure.py        配置文件，模型路径，CRF路径
+CTB_main.py         主函数，命令的参数
+get_CTB_POS.py      对未分词和未pos的句子进行CTB体系的分词和pos
+get_new_tag*.py     结点的tag特征提取以及模型
+piece_joint*.py     子树间分析模型
+piece_parse*.py     子树内部分析模型
+ParseEval.py        句法分析评价
+split_model_test.py 长句子分割模型
+get_pcfg_porb.py    Beam Search的打分依据
+treeWriter.py       画树，将树字符串输出图片
+    MultiTree.py        
+    show_multi.py
+model/              所有的模型文件夹
+files/              一些文件，训练测试文件
+CRF/                CRF模型
+*_sen_*             一些测试文件，可以用CTB_main.py测试
+

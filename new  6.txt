@@ -1,0 +1,50 @@
+(IP (IP* (NP-PN* (NR 上海)(NR 浦东))(IP* (NN 开发)(IP (CC 与)(FRAG* (NN 法制)(NN 建设)))))(VP (VV 同步)))
+
+ (IP (NP (NP-PN (NR 上海)(NR 浦东))(NP (NN 开发)(NP* (CC 与)(NP (NN 法制)(NN 建设)))))(VP (VV 同步))) )
+ 
+ 
+ ( (IP (IP (NP-PN (NR 上海)(NR 浦东))(VP (VP (LCP (NP (NT 近年))(LC 来))(VP (VCD (VV 颁布)(VV 实行))(VP* (AS 了)(NP (CP (IP (VP (VV 涉及)(NP (NP (NP (NN 经济)(NP* (PU 、)(NP* (NN 贸易)(NP* (PU 、)(NP* (NN 建设)(NP* (PU 、)(NP* (NN 规划)(NP* (PU 、)(NP* (NN 科技)(NP* (PU 、)(NN 文教)))))))))))(ETC 等))(NP (NN 领域)))))(DEC 的))(NP* (QP (CD 七十一)(CLP (M 件)))(NP (NN 法规性)(NN 文件)))))))(VP* (PU ，)(VP (VP* (VV 确保)(AS 了))(NP (DNP (NP (NP-PN (NR 浦东))(NP (NN 开发)))(DEG 的))(NP* (ADJP (JJ 有序))(NP (NN 进行))))))))(PU 。)) )
+ 
+ ##单个tag2
+(NP-PN (NR 上海)(NR 浦东))
+(CP (UCP* (DNP (VP* (NP (NT 近年))(LC 来))(NP (DNP (IP (VP (VP* (VV 颁布)(VV 实行))(AS 了)))(DNP (NP (VV 涉及)(NP* (NP* (NN 经济)(NP (PU 、)(NP* (NN 贸易)(NP (PU 、)(NN 建设)))))(NP (PU 、)(NP* (NN 规划)(NP* (NP (PU 、)(NN 科技))(NP* (NP (PU 、)(NN 文教))(ETC 等)))))))(NP (NN 领域))))))(DEC 的))(IP (CD 七十一)(VP (M 件)(NP (NN 法规性)(NN 文件)))))
+(PU ，)
+(VP (NP (NP (VV 确保)(AS 了))(NP* (DNP (NR 浦东)(NN 开发))(DEG 的)))(NP (ADJP (JJ 有序))(NN 进行)))
+(PU 。)
+
+ ##单个
+(NP-PN (NR 上海)(NR 浦东))
+(VP (VP* (NP (NT 近年))(LC 来))(NP (DNP (NP (VP* (VV 颁布)(VV 实行))(AS 了))(PRN (DNP (NP (VV 涉及)(NP* (NN 经济)(NP* (PU 、)(NP* (NN 贸易)(NP* (PU 、)(NP* (NN 建设)(NP* (PU 、)(NP* (NN 规划)(NP (NP (PU 、)(NN 科技))(NP* (NP (PU 、)(NN 文教))(ETC 等)))))))))))(NP (NN 领域)))))(CP (DEC 的)(IP (CD 七十一)(VP (M 件)(NP (NN 法规性)(NN 文件)))))))
+(CP (VP* (VV 确保)(AS 了))(IP (VP (DNP (DNP (NR 浦东)(NN 开发))(DEG 的))(NP (ADJP (JJ 有序))(NN 进行)))))
+
+###多个
+(NP-PN (NR 上海)(NR 浦东))
+(IP (VP* (DNP (VRD (VP (NP (NT 近年))(LC 来))(VP* (VP* (VV 颁布)(VV 实行))(AS 了)))(NP (DNP (NP (VV 涉及)(NP* (FRAG* (NN 经济)(NP (PU 、)(FRAG* (NN 贸易)(NP (PU 、)(NN 建设)))))(NP (PU 、)(NN 规划))))(DNP (NP (NP (PU 、)(NN 科技))(NP* (NP (PU 、)(NN 文教))(ETC 等)))(NP (NN 领域))))))(DEC 的))(VP (NP (CD 七十一)(CLP (M 件)))(NP (NN 法规性)(NN 文件))))
+(PU ，)
+(IP (IP (VP* (VV 确保)(AS 了))(NP* (DNP (NP-PN (NR 浦东))(NP (NN 开发)))(DEG 的)))(VP (ADJP (JJ 有序))(NP (NN 进行))))
+(PU 。)
+
+####S^1,tag2
+(NP-PN (NR 上海)(NR 浦东))
+(NP (VP* (NP (NT 近年))(LC 来))(CP (VP* (VV 颁布)(VV 实行))(IP (VP (NP (AS 了)(NP* (NP (VP (IP (VP (DNP (VV 涉及)(NP (DNP (NP* (NP* (NN 经济)(NP (PU 、)(NP* (NN 贸易)(NP (PU 、)(NN 建设)))))(NP (PU 、)(NP* (NN 规划)(NP* (NP (PU 、)(NN 科技))(NP* (NP (PU 、)(NN 文教))(ETC 等))))))(NP (NN 领域)))))))(DEC 的)))(NP* (CD 七十一)(CLP (M 件)))))(NP (NN 法规性)(NN 文件))))))
+(PU ，)
+(VP (NP (NP (VV 确保)(AS 了))(NP* (DNP (NR 浦东)(NN 开发))(DEG 的)))(NP (ADJP (JJ 有序))(NN 进行)))
+(PU 。)
+
+####S^1
+(NP-PN (NR 上海)(NR 浦东))
+(CP (VP* (NP (NT 近年))(LC 来))(IP (VP* (IP (VP (DNP (VP* (VP* (VV 颁布)(VV 实行))(AS 了))(NP (DNP (NP (VV 涉及)(NP* (NN 经济)(NP* (PU 、)(NP* (NN 贸易)(NP* (PU 、)(NP* (NN 建设)(NP* (PU 、)(NP* (NN 规划)(NP (NP (PU 、)(NN 科技))(NP* (NP (PU 、)(NN 文教))(ETC 等)))))))))))(NP (NN 领域)))))))(DEC 的))(VP (NP (CD 七十一)(CLP (M 件)))(NP (NN 法规性)(NN 文件)))))
+(PU ，)
+(CP (VP* (VV 确保)(AS 了))(IP (VP (DNP (DNP (NR 浦东)(NN 开发))(DEG 的))(NP (ADJP (JJ 有序))(NN 进行)))))
+ 
+ ##tag 多个 S^1
+ (NP-PN (NR 上海)(NR 浦东))
+###
+(CP (NP* (IP (VP (NP (DNP (NP* (CP (IP (VP (VRD (VP (NP (NT 近年))(LC 来))(VP* (VP* (VV 颁布)(VV 实行))(AS 了))))))(NP (VV 涉及)(NP* (FRAG* (NN 经济)(NP (PU 、)(FRAG* (NN 贸易)(NP (PU 、)(NN 建设)))))(NP (PU 、)(NN 规划)))))(NP (DNP (NP (NP (PU 、)(NN 科技))(NP* (NP (PU 、)(NN 文教))(ETC 等)))(NP (NN 领域))))))))(DEC 的))(IP (VP (NP (CD 七十一)(CLP (M 件)))(NP (NN 法规性)(NN 文件)))))
+###
+(PU ，)
+###
+(IP (IP (VP* (VV 确保)(AS 了))(NP* (DNP (NP-PN (NR 浦东))(NP (NN 开发)))(DEG 的)))(VP (ADJP (JJ 有序))(NP (NN 进行))))
+###
+(PU 。)
+
