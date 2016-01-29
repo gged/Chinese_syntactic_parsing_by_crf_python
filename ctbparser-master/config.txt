@@ -1,0 +1,9 @@
+nbest	1
+full	0
+seg_model_file	/home/hdz/Desktop/QA/ctbparser-master/seg_model_l1
+pos_model_file	/home/hdz/Desktop/QA/ctbparser-master/pos_model_l1
+ner_model_file	/home/hdz/Desktop/QA/ctbparser-master/ner_model_l1
+parser_model_file	/home/hdz/Desktop/QA/ctbparser-master/dependency_model_l1
+dict_file	/home/hdz/Desktop/QA/ctbparser-master/dict.txt
+segsen	0
+task	pos

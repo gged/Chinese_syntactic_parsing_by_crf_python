@@ -1,0 +1,2 @@
+我/PN  是/VC  北京大学/NR  的/DEG  学生/NN  ./PU
+我/PN  想/VV  去/MSP  天安门/NR  玩/SP  ./PU
